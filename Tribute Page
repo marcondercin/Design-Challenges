@@ -1,0 +1,29 @@
+<body>
+  <main id="main">
+    <header>
+      <h1 id="title">The Origin of the Bicycle</h1>
+      <h3>The story of two wheels.</h3>
+    </header>
+    <figure id="img-div">
+      <img id="image" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/penny-farthing-black-on-white-gill-billington.jpg" alt="Many bicycles">
+      <figcaption id="img-caption">The Penny Farthing: The first machine to be called a bicycle.</figcaption>
+    </figure>
+    <section id="tribute-info">
+      <h2>A Timeline of Events</h2>
+      <p class="tribute-paragraph"><strong>1817</strong> - The "dandy horse" is introduced to the public by Baron Karl von Drais. Regarded as the first bicycle, without pedals, its rider sat on a wooden frame supported by two in-line wheels and pushed with his/her feet.</p>
+      <p class="tribute-paragraph"><strong>1839</strong> - The first mechanically-propelled, two-wheeled vehicle may have been built, although this claim is often disputed.</p>
+      <p class="tribute-paragraph"><strong>1842</strong> - The first cycling traffic offense, where the claimed inventor of the vehicle above knocked over a little girl in Glasgow and was fined five shillings.</p>
+      <p class="tribute-paragraph"><strong>1860s</strong> - Pierre Michaux and Pierre Lallement added a mechanical crank drive with pedals on an enlarged front wheel, known as the velocipede. This was the first in mass production.</p>
+      <p class="tribute-paragraph"><strong>1869</strong> - Bicycle wheels with wire spokes was patented by Eugène Meyer. The French vélocipède, made of iron and wood, developed into the "penny-farthing". This featured a tubular steel frame with wire-spoked wheels and solid rubber tires.</p>
+      <p class="tribute-paragraph"><strong>1878</strong> - Thomas Shergold developed the first rear wheeled chain-driven bicycle. </p>
+      <p class="tribute-paragraph"><strong>1885</strong> - The Rover, designed by John Kemp Starley, J.H. Lawson and Thomas Shergold came to be. Included in this design was gearing to efficiently use pedal power, chain drive cranks connected to the rear wheel, a lower seat height and better weight distribution. The seat tube was added, creating the modern bike's double-triangle diamond frame.</p>
+      <p class="tribute-paragraph"><strong>1888</strong> - The first practical pneumatic tire is introduced by John Boyd Dunlop.</p>
+      <p class="tribute-paragraph"><strong>1889</strong> - The rear freewheel was developed, enabling the rider to coast.</p>
+      <p class="tribute-paragraph"><strong>1890</strong> - Due to the introduction of the freewheel, coaster brakes were invented.</p>
+      <p class="tribute-paragraph"><strong>1890s</strong> - Derailleur gears and hand-operated cable-pull brakes were developed, but slowly adopted by casual riders.</p>
+      <footer>
+        <p>For more information about the bicycle, check out the <a id="tribute-link" href="https://en.wikipedia.org/wiki/Bicycle" target="_blank">Wikipedia entry</a>.</p>
+      </footer>
+    </section>
+  </main>
+</body>
