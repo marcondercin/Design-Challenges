@@ -1,0 +1,71 @@
+<body>
+<div class="container">
+  <h1 id="title">Bicycle Service Form</h1>
+  <p id="description">Enter your details here.</p>
+
+  <form id="survey-form">
+      
+    <label for="name" id="name-label">Name</label>
+    <input type="text" id="name" name="name" placeholder="Joe Schmoe" required>
+      
+    <label for="email" id="email-label">Email</label>
+    <input type="email" id="email" name="email" placeholder="joeschmoe@schmoe.com" required>
+      
+    <label for="makemodel" id="model-label">Bicycle</label>
+    <input type="text" id="model" name="makemodel" placeholder="Make and Model" required>
+    
+    <label for="number" id="number-label">Year</label>
+    <input type="number" id="number" name="number" min="1900" max="2050" placeholder="Year of production">
+
+    <label for="dropdown">Would you like a tune up?</label>
+    <div class="dropdown-container">
+      <select name="tune" id="dropdown">
+        <option value="none">No tune up</option>
+        <option value="basic">Basic Tune</option>
+        <option value="normal">Normal Tune</option>
+        <option value="thorough">Thorough Tune</option>
+      </select>
+    </div>
+
+    <p class="radio-question">When would you like your bike back?</p>
+    <label>
+      <input name="time-constraint" type="radio" value="1" class="radioclass">Same Day
+    </label>
+    <label>
+      <input name="time-constraint" type="radio" value="2" class="radioclass">2 Days
+    </label>
+    <label>
+      <input name="time-constraint" type="radio" value="3-5" class="radioclass">3-5 Days
+    </label>
+    <label>
+      <input name="time-constraint" type="radio" value="week" class="radioclass">1 Week
+    </label>
+    <label>
+      <input name="time-constraint" type="radio" value="2-weeks" class="radioclass">2 Weeks
+    </label>
+
+    <p class="checkboxes">Have you been having issues with anything specific?</p>
+    <label class="checkbox-label">
+      <input type="checkbox" name="issues" value="brakes">Brakes <br>
+    </label>
+    <label class="checkbox-label">
+      <input type="checkbox" name="issues" value="drivetrain">Drivetrain
+    </label>
+    <label class="checkbox-label">
+      <input type="checkbox" name="issues" value="steering">Steering
+    </label>
+    <label class="checkbox-label">
+      <input type="checkbox" name="issues" value="wheels">Wheels and Tires
+    </label>
+    <label class="checkbox-label">
+      <input type="checkbox" name="issues" value="shifting">Shifting
+    </label>
+
+    <label for="comments" class="comments">Any other comments?</label>
+    <textarea rows="10" cols="30" name="comments"></textarea>
+
+    <button type="submit" id="submit">Submit</button>
+
+  </form>
+</div>
+</body>
