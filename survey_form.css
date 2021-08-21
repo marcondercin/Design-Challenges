@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "helvetica";
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 800px;
+  width: 90%;
+  background-color: lightgrey;
+  border-radius: 15px;
+  margin: 10px auto;
+}
+
+#title {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+label {
+  display: block;
+  margin: 1.2rem 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+input {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
+
+#name, #email, #number, #model {
+  margin: 0.5rem 0 0 1rem;
+  padding-left: 1rem;
+  height: 2rem;
+  width: 95%;
+  border-radius: 3px;
+  border: none;
+}
+
+.dropdown-container {
+  background-color: white;
+  margin: 0 1.5rem 0 1rem;
+  padding: 0.1rem 0 0.4rem 0;
+}
+
+select {
+  width: 95%;
+  height: 40px;
+  margin: 0.5rem 1rem 0 1rem;
+  font-size: 5rem;
+}
+
+.radio-question {
+  font-size: 18px;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.radioclass {
+  margin-left: 0.5rem;
+}
+
+.checkboxes {
+  font-size: 18px;
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+select {
+  font-size: 18px;
+}
+
+.comments {
+  margin-top: 3rem;
+}
+
+textarea {
+  margin: 1rem 0 0 1rem;
+  width: 95%;
+  font-size: 16px;
+  border-radius: 3px;
+  border: none;
+  padding: 0.5rem;
+}
+
+#submit {
+  color: black;
+  padding: 0.5rem 1rem;;
+  margin: 0.5rem 0 1rem 1rem;
+  font-size: 16px;
+  border-radius: 5px;
+  border: solid 2px black;
+  background-color: white;
+  transition-duration: 0.3s;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: grey;
+}
