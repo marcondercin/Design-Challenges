@@ -1,0 +1,173 @@
+html {font-size: 10px;}
+
+body {
+  font-family: "Helvetica Nueue", "Helvetica", sans-serif;
+  background-color: #F4EADC;
+}
+
+header {
+  min-height: 50px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 1.7rem;
+  align-items: center;
+  border-bottom: 2px solid black;
+  background-color: #E1C59D;
+}
+
+#header-img {
+  width: auto;
+  height: 50px;
+  border: 2px solid black;
+}
+
+#company-title-bar {
+  margin-left: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav {
+  margin: 0 20px 0 auto;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition-duration: 0.3s;
+}
+
+nav a:hover {
+  color: darkblue;
+}
+
+#our-bikes {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#our-bikes h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#our-bikes p {
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+#video {
+  margin: 50px auto 0px auto;
+  width: 1080px;
+  height: 607px;
+}
+
+@media (max-width: 1200px) {
+  #video {
+    width: 720px;
+    height: 405px;
+  }
+}
+
+@media (max-width: 900px) {
+  #video {
+    width: 480px;
+    height: 271px;
+  }
+}
+
+@media (max-width: 700px) {
+  nav {
+    width: 200px;
+    margin-left: auto;
+  }
+  
+  nav a {
+    padding: 0 10px;
+  }
+}
+
+#materials {
+  max-width: 700px;
+  margin: 100px auto;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+#materials h2 {
+  margin-top: 50px;
+}
+
+.product ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+#pricing {
+  display: flex;
+  margin: 100px auto;
+  justify-content: space-around;
+  padding: 50px 50px;
+}
+
+.product {
+  width: 300px;
+  border: 3px solid maroon;
+  text-align: center;
+  font-size: 1.8rem;
+  border-radius: 3px;
+}
+
+@media (max-width: 900px) {
+  #pricing {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .product {
+    width: 300px;
+    margin: 10px 0;
+  }
+  #materials {
+    padding: 0 30px;
+  }
+}
+
+.level {
+  background-color: grey;
+  border-bottom: 2px solid black;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 5px;
+}
+
+#contact {
+  font-size: 1.8rem;
+  text-align: center;
+  border-top: 3px solid black;
+  width: 50%;
+  margin: 0 auto 100px auto;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border-radius: 0px;
+}
+
+input {
+  font-size: 1.6rem;
+}
